@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "adm-zip": {
-      "version": "0.4.7"
+      "version": "http://npm.cloud.corp.dig.com/adm-zip/-/adm-zip-0.4.7.tgz"
     }
   }
 }

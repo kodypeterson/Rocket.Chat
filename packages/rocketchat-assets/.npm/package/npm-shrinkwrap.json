@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "image-size": {
-      "version": "0.4.0"
+      "version": "http://npm.cloud.corp.dig.com/image-size/-/image-size-0.4.0.tgz"
     },
     "mime-types": {
-      "version": "2.1.9",
+      "version": "http://npm.cloud.corp.dig.com/mime-types/-/mime-types-2.1.9.tgz",
       "dependencies": {
         "mime-db": {
-          "version": "1.21.0"
+          "version": "http://npm.cloud.corp.dig.com/mime-db/-/mime-db-1.21.0.tgz"
         }
       }
     }

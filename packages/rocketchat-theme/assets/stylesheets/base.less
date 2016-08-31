@@ -1513,12 +1513,12 @@ label.required:after {
 }
 
 .fixed-title {
-	position: absolute;
+	position: fixed;
 	.flex-center;
 	flex-flow: row nowrap;
-	padding: 0 10px 0 20px;
+	padding: 0 10px 0 270px;
 	border-bottom: 1px solid;
-	z-index: 100;
+	z-index: 999;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1545,6 +1545,70 @@ label.required:after {
 		.icon-star-empty {
 			margin-right: -4px;
 		}
+
+		.room-action-buttons {
+			display: inline-block;
+			float: right;
+
+			&.mobile {
+				display: none;
+
+				li {
+					padding-left: 2px;
+				}
+			}
+
+			li {
+				display: inline-block;
+				padding-left: 5px;
+				font-size: 15px;
+
+				.spacer {
+					border-left: 1px solid #AAA;
+					margin-right: 7px;
+					margin-left: 5px;
+				}
+
+				.search-form {
+					.search {
+						margin-top: 0;
+						margin-left: 0;
+						width: 100%;
+					}
+
+					i {
+						margin-top: -7px;
+						margin-left: 3px;
+					}
+				}
+
+				i {
+					font-size: 20px;
+					color: #AAA;
+
+					&:hover {
+						color: #444;
+					}
+				}
+
+				ul {
+					display: none;
+					float: none;
+					position: absolute;
+					margin-left: -40px;
+					top: 45px;
+					background-color: red;
+
+					&.visible {
+						display: inherit;
+					}
+
+					li {
+						display: block;
+					}
+				}
+			}
+		}
 	}
 	.animated-hidden {
 		visibility: hidden;
@@ -1562,6 +1626,23 @@ label.required:after {
 		margin-top: -7px;
 		display: inline-block;
 		font-size: 16px;
+	}
+}
+
+@media all and(max-width: 1100px) {
+	#rocket-chat {
+		.fixed-title {
+			padding: 0;
+
+			.room-action-buttons {
+				&.desktop {
+					display: none;
+				}
+				&.mobile {
+					display: inherit;
+				}
+			}
+		}
 	}
 }
 
@@ -1642,13 +1723,12 @@ label.required:after {
 	top: 0;
 	bottom: 0;
 	left: @rooms-box-width;
-	right: 40px;
+	right: 0;
 	width: auto;
 	height: auto;
 	&.flex-opened {
-		right: @flex-tab-width + 40px;
+		right: @flex-tab-width;
 		.flex-tab {
-			right: 40px;
 			.transform(translateX(0));
 		}
 	}
@@ -2995,6 +3075,7 @@ body:not(.is-cordova) {
 		overflow-y: auto;
 		top: auto;
 		-webkit-overflow-scrolling: touch;
+		padding-top: 45px;
 		> div {
 			.transition(transform .45s cubic-bezier(.5, 0, 0, 1), opacity .125s ease-out .1s);
 		}

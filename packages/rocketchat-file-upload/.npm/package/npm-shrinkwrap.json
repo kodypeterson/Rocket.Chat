@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "mime-types": {
-      "version": "2.1.11",
+      "version": "http://npm.cloud.corp.dig.com/mime-types/-/mime-types-2.1.11.tgz",
       "dependencies": {
         "mime-db": {
-          "version": "1.23.0"
+          "version": "http://npm.cloud.corp.dig.com/mime-db/-/mime-db-1.23.0.tgz"
         }
       }
     }

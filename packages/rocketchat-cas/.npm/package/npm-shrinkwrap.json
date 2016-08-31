@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "cas": {
-      "version": "0.0.3"
+      "version": "http://npm.cloud.corp.dig.com/cas/-/cas-0.0.3.tgz"
     }
   }
 }

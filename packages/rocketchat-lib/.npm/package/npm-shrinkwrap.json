@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "bad-words": {
-      "version": "1.3.1",
+      "version": "http://npm.cloud.corp.dig.com/bad-words/-/bad-words-1.3.1.tgz",
       "dependencies": {
         "badwords-list": {
-          "version": "1.0.0"
+          "version": "http://npm.cloud.corp.dig.com/badwords-list/-/badwords-list-1.0.0.tgz"
         }
       }
     }

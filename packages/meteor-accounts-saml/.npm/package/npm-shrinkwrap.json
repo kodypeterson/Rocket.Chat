@@ -1,99 +1,99 @@
 {
   "dependencies": {
     "connect": {
-      "version": "2.7.10",
+      "version": "http://npm.cloud.corp.dig.com/connect/-/connect-2.7.10.tgz",
       "dependencies": {
         "qs": {
-          "version": "0.6.5"
+          "version": "http://npm.cloud.corp.dig.com/qs/-/qs-0.6.5.tgz"
         },
         "formidable": {
-          "version": "1.0.14"
+          "version": "http://npm.cloud.corp.dig.com/formidable/-/formidable-1.0.14.tgz"
         },
         "cookie-signature": {
-          "version": "1.0.1"
+          "version": "http://npm.cloud.corp.dig.com/cookie-signature/-/cookie-signature-1.0.1.tgz"
         },
         "buffer-crc32": {
-          "version": "0.2.1"
+          "version": "http://npm.cloud.corp.dig.com/buffer-crc32/-/buffer-crc32-0.2.1.tgz"
         },
         "cookie": {
-          "version": "0.0.5"
+          "version": "http://npm.cloud.corp.dig.com/cookie/-/cookie-0.0.5.tgz"
         },
         "send": {
-          "version": "0.1.0",
+          "version": "http://npm.cloud.corp.dig.com/send/-/send-0.1.0.tgz",
           "dependencies": {
             "mime": {
-              "version": "1.2.6"
+              "version": "http://npm.cloud.corp.dig.com/mime/-/mime-1.2.6.tgz"
             },
             "range-parser": {
-              "version": "0.0.4"
+              "version": "http://npm.cloud.corp.dig.com/range-parser/-/range-parser-0.0.4.tgz"
             }
           }
         },
         "bytes": {
-          "version": "0.2.0"
+          "version": "http://npm.cloud.corp.dig.com/bytes/-/bytes-0.2.0.tgz"
         },
         "fresh": {
-          "version": "0.1.0"
+          "version": "http://npm.cloud.corp.dig.com/fresh/-/fresh-0.1.0.tgz"
         },
         "pause": {
-          "version": "0.0.1"
+          "version": "http://npm.cloud.corp.dig.com/pause/-/pause-0.0.1.tgz"
         },
         "debug": {
-          "version": "2.2.0",
+          "version": "http://npm.cloud.corp.dig.com/debug/-/debug-2.2.0.tgz",
           "dependencies": {
             "ms": {
-              "version": "0.7.1"
+              "version": "http://npm.cloud.corp.dig.com/ms/-/ms-0.7.1.tgz"
             }
           }
         }
       }
     },
     "querystring": {
-      "version": "0.2.0"
+      "version": "http://npm.cloud.corp.dig.com/querystring/-/querystring-0.2.0.tgz"
     },
     "xml-crypto": {
-      "version": "0.6.0",
+      "version": "http://npm.cloud.corp.dig.com/xml-crypto/-/xml-crypto-0.6.0.tgz",
       "dependencies": {
         "xpath.js": {
-          "version": "1.0.6"
+          "version": "http://npm.cloud.corp.dig.com/xpath.js/-/xpath.js-1.0.6.tgz"
         }
       }
     },
     "xml-encryption": {
-      "version": "0.7.2",
+      "version": "http://npm.cloud.corp.dig.com/xml-encryption/-/xml-encryption-0.7.2.tgz",
       "dependencies": {
         "ejs": {
-          "version": "0.8.8"
+          "version": "http://npm.cloud.corp.dig.com/ejs/-/ejs-0.8.8.tgz"
         },
         "async": {
-          "version": "0.2.10"
+          "version": "http://npm.cloud.corp.dig.com/async/-/async-0.2.10.tgz"
         },
         "xpath": {
-          "version": "0.0.5"
+          "version": "http://npm.cloud.corp.dig.com/xpath/-/xpath-0.0.5.tgz"
         },
         "node-forge": {
-          "version": "0.2.24"
+          "version": "http://npm.cloud.corp.dig.com/node-forge/-/node-forge-0.2.24.tgz"
         }
       }
     },
     "xml2js": {
-      "version": "0.2.0",
+      "version": "http://npm.cloud.corp.dig.com/xml2js/-/xml2js-0.2.0.tgz",
       "dependencies": {
         "sax": {
-          "version": "1.1.3"
+          "version": "http://npm.cloud.corp.dig.com/sax/-/sax-1.1.3.tgz"
         }
       }
     },
     "xmlbuilder": {
-      "version": "2.6.4",
+      "version": "http://npm.cloud.corp.dig.com/xmlbuilder/-/xmlbuilder-2.6.4.tgz",
       "dependencies": {
         "lodash": {
-          "version": "3.10.1"
+          "version": "http://npm.cloud.corp.dig.com/lodash/-/lodash-3.10.1.tgz"
         }
       }
     },
     "xmldom": {
-      "version": "0.1.19"
+      "version": "http://npm.cloud.corp.dig.com/xmldom/-/xmldom-0.1.19.tgz"
     }
   }
 }

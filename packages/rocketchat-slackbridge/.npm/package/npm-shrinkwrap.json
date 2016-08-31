@@ -1,329 +1,329 @@
 {
   "dependencies": {
     "slack-client": {
-      "version": "2.0.4",
+      "version": "http://npm.cloud.corp.dig.com/slack-client/-/slack-client-2.0.4.tgz",
       "dependencies": {
         "async": {
           "version": "1.5.2"
         },
         "eventemitter3": {
-          "version": "1.2.0"
+          "version": "http://npm.cloud.corp.dig.com/eventemitter3/-/eventemitter3-1.2.0.tgz"
         },
         "https-proxy-agent": {
-          "version": "1.0.0",
+          "version": "http://npm.cloud.corp.dig.com/https-proxy-agent/-/https-proxy-agent-1.0.0.tgz",
           "dependencies": {
             "agent-base": {
-              "version": "2.0.1",
+              "version": "http://npm.cloud.corp.dig.com/agent-base/-/agent-base-2.0.1.tgz",
               "dependencies": {
                 "semver": {
-                  "version": "5.0.3"
+                  "version": "http://npm.cloud.corp.dig.com/semver/-/semver-5.0.3.tgz"
                 }
               }
             },
             "debug": {
-              "version": "2.2.0",
+              "version": "http://npm.cloud.corp.dig.com/debug/-/debug-2.2.0.tgz",
               "dependencies": {
                 "ms": {
-                  "version": "0.7.1"
+                  "version": "http://npm.cloud.corp.dig.com/ms/-/ms-0.7.1.tgz"
                 }
               }
             },
             "extend": {
-              "version": "3.0.0"
+              "version": "http://npm.cloud.corp.dig.com/extend/-/extend-3.0.0.tgz"
             }
           }
         },
         "inherits": {
-          "version": "2.0.1"
+          "version": "http://npm.cloud.corp.dig.com/inherits/-/inherits-2.0.1.tgz"
         },
         "lodash": {
-          "version": "3.10.1"
+          "version": "http://npm.cloud.corp.dig.com/lodash/-/lodash-3.10.1.tgz"
         },
         "request": {
-          "version": "2.72.0",
+          "version": "http://npm.cloud.corp.dig.com/request/-/request-2.72.0.tgz",
           "dependencies": {
             "aws-sign2": {
-              "version": "0.6.0"
+              "version": "http://npm.cloud.corp.dig.com/aws-sign2/-/aws-sign2-0.6.0.tgz"
             },
             "aws4": {
-              "version": "1.3.2",
+              "version": "http://npm.cloud.corp.dig.com/aws4/-/aws4-1.3.2.tgz",
               "dependencies": {
                 "lru-cache": {
-                  "version": "4.0.1",
+                  "version": "http://npm.cloud.corp.dig.com/lru-cache/-/lru-cache-4.0.1.tgz",
                   "dependencies": {
                     "pseudomap": {
-                      "version": "1.0.2"
+                      "version": "http://npm.cloud.corp.dig.com/pseudomap/-/pseudomap-1.0.2.tgz"
                     },
                     "yallist": {
-                      "version": "2.0.0"
+                      "version": "http://npm.cloud.corp.dig.com/yallist/-/yallist-2.0.0.tgz"
                     }
                   }
                 }
               }
             },
             "bl": {
-              "version": "1.1.2",
+              "version": "http://npm.cloud.corp.dig.com/bl/-/bl-1.1.2.tgz",
               "dependencies": {
                 "readable-stream": {
-                  "version": "2.0.6",
+                  "version": "http://npm.cloud.corp.dig.com/readable-stream/-/readable-stream-2.0.6.tgz",
                   "dependencies": {
                     "core-util-is": {
-                      "version": "1.0.2"
+                      "version": "http://npm.cloud.corp.dig.com/core-util-is/-/core-util-is-1.0.2.tgz"
                     },
                     "isarray": {
-                      "version": "1.0.0"
+                      "version": "http://npm.cloud.corp.dig.com/isarray/-/isarray-1.0.0.tgz"
                     },
                     "process-nextick-args": {
-                      "version": "1.0.7"
+                      "version": "http://npm.cloud.corp.dig.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz"
                     },
                     "string_decoder": {
-                      "version": "0.10.31"
+                      "version": "http://npm.cloud.corp.dig.com/string_decoder/-/string_decoder-0.10.31.tgz"
                     },
                     "util-deprecate": {
-                      "version": "1.0.2"
+                      "version": "http://npm.cloud.corp.dig.com/util-deprecate/-/util-deprecate-1.0.2.tgz"
                     }
                   }
                 }
               }
             },
             "caseless": {
-              "version": "0.11.0"
+              "version": "http://npm.cloud.corp.dig.com/caseless/-/caseless-0.11.0.tgz"
             },
             "combined-stream": {
-              "version": "1.0.5",
+              "version": "http://npm.cloud.corp.dig.com/combined-stream/-/combined-stream-1.0.5.tgz",
               "dependencies": {
                 "delayed-stream": {
-                  "version": "1.0.0"
+                  "version": "http://npm.cloud.corp.dig.com/delayed-stream/-/delayed-stream-1.0.0.tgz"
                 }
               }
             },
             "extend": {
-              "version": "3.0.0"
+              "version": "http://npm.cloud.corp.dig.com/extend/-/extend-3.0.0.tgz"
             },
             "forever-agent": {
-              "version": "0.6.1"
+              "version": "http://npm.cloud.corp.dig.com/forever-agent/-/forever-agent-0.6.1.tgz"
             },
             "form-data": {
-              "version": "1.0.0-rc4"
+              "version": "http://npm.cloud.corp.dig.com/form-data/-/form-data-1.0.0-rc4.tgz"
             },
             "har-validator": {
-              "version": "2.0.6",
+              "version": "http://npm.cloud.corp.dig.com/har-validator/-/har-validator-2.0.6.tgz",
               "dependencies": {
                 "chalk": {
-                  "version": "1.1.3",
+                  "version": "http://npm.cloud.corp.dig.com/chalk/-/chalk-1.1.3.tgz",
                   "dependencies": {
                     "ansi-styles": {
-                      "version": "2.2.1"
+                      "version": "http://npm.cloud.corp.dig.com/ansi-styles/-/ansi-styles-2.2.1.tgz"
                     },
                     "escape-string-regexp": {
-                      "version": "1.0.5"
+                      "version": "http://npm.cloud.corp.dig.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
                     },
                     "has-ansi": {
-                      "version": "2.0.0",
+                      "version": "http://npm.cloud.corp.dig.com/has-ansi/-/has-ansi-2.0.0.tgz",
                       "dependencies": {
                         "ansi-regex": {
-                          "version": "2.0.0"
+                          "version": "http://npm.cloud.corp.dig.com/ansi-regex/-/ansi-regex-2.0.0.tgz"
                         }
                       }
                     },
                     "strip-ansi": {
-                      "version": "3.0.1",
+                      "version": "http://npm.cloud.corp.dig.com/strip-ansi/-/strip-ansi-3.0.1.tgz",
                       "dependencies": {
                         "ansi-regex": {
-                          "version": "2.0.0"
+                          "version": "http://npm.cloud.corp.dig.com/ansi-regex/-/ansi-regex-2.0.0.tgz"
                         }
                       }
                     },
                     "supports-color": {
-                      "version": "2.0.0"
+                      "version": "http://npm.cloud.corp.dig.com/supports-color/-/supports-color-2.0.0.tgz"
                     }
                   }
                 },
                 "commander": {
-                  "version": "2.9.0",
+                  "version": "http://npm.cloud.corp.dig.com/commander/-/commander-2.9.0.tgz",
                   "dependencies": {
                     "graceful-readlink": {
-                      "version": "1.0.1"
+                      "version": "http://npm.cloud.corp.dig.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz"
                     }
                   }
                 },
                 "is-my-json-valid": {
-                  "version": "2.13.1",
+                  "version": "http://npm.cloud.corp.dig.com/is-my-json-valid/-/is-my-json-valid-2.13.1.tgz",
                   "dependencies": {
                     "generate-function": {
-                      "version": "2.0.0"
+                      "version": "http://npm.cloud.corp.dig.com/generate-function/-/generate-function-2.0.0.tgz"
                     },
                     "generate-object-property": {
-                      "version": "1.2.0",
+                      "version": "http://npm.cloud.corp.dig.com/generate-object-property/-/generate-object-property-1.2.0.tgz",
                       "dependencies": {
                         "is-property": {
-                          "version": "1.0.2"
+                          "version": "http://npm.cloud.corp.dig.com/is-property/-/is-property-1.0.2.tgz"
                         }
                       }
                     },
                     "jsonpointer": {
-                      "version": "2.0.0"
+                      "version": "http://npm.cloud.corp.dig.com/jsonpointer/-/jsonpointer-2.0.0.tgz"
                     },
                     "xtend": {
-                      "version": "4.0.1"
+                      "version": "http://npm.cloud.corp.dig.com/xtend/-/xtend-4.0.1.tgz"
                     }
                   }
                 },
                 "pinkie-promise": {
-                  "version": "2.0.1",
+                  "version": "http://npm.cloud.corp.dig.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz",
                   "dependencies": {
                     "pinkie": {
-                      "version": "2.0.4"
+                      "version": "http://npm.cloud.corp.dig.com/pinkie/-/pinkie-2.0.4.tgz"
                     }
                   }
                 }
               }
             },
             "hawk": {
-              "version": "3.1.3",
+              "version": "http://npm.cloud.corp.dig.com/hawk/-/hawk-3.1.3.tgz",
               "dependencies": {
                 "hoek": {
-                  "version": "2.16.3"
+                  "version": "http://npm.cloud.corp.dig.com/hoek/-/hoek-2.16.3.tgz"
                 },
                 "boom": {
-                  "version": "2.10.1"
+                  "version": "http://npm.cloud.corp.dig.com/boom/-/boom-2.10.1.tgz"
                 },
                 "cryptiles": {
-                  "version": "2.0.5"
+                  "version": "http://npm.cloud.corp.dig.com/cryptiles/-/cryptiles-2.0.5.tgz"
                 },
                 "sntp": {
-                  "version": "1.0.9"
+                  "version": "http://npm.cloud.corp.dig.com/sntp/-/sntp-1.0.9.tgz"
                 }
               }
             },
             "http-signature": {
-              "version": "1.1.1",
+              "version": "http://npm.cloud.corp.dig.com/http-signature/-/http-signature-1.1.1.tgz",
               "dependencies": {
                 "assert-plus": {
-                  "version": "0.2.0"
+                  "version": "http://npm.cloud.corp.dig.com/assert-plus/-/assert-plus-0.2.0.tgz"
                 },
                 "jsprim": {
-                  "version": "1.2.2",
+                  "version": "http://npm.cloud.corp.dig.com/jsprim/-/jsprim-1.2.2.tgz",
                   "dependencies": {
                     "extsprintf": {
-                      "version": "1.0.2"
+                      "version": "http://npm.cloud.corp.dig.com/extsprintf/-/extsprintf-1.0.2.tgz"
                     },
                     "json-schema": {
-                      "version": "0.2.2"
+                      "version": "http://npm.cloud.corp.dig.com/json-schema/-/json-schema-0.2.2.tgz"
                     },
                     "verror": {
-                      "version": "1.3.6"
+                      "version": "http://npm.cloud.corp.dig.com/verror/-/verror-1.3.6.tgz"
                     }
                   }
                 },
                 "sshpk": {
-                  "version": "1.8.3",
+                  "version": "http://npm.cloud.corp.dig.com/sshpk/-/sshpk-1.8.3.tgz",
                   "dependencies": {
                     "asn1": {
-                      "version": "0.2.3"
+                      "version": "http://npm.cloud.corp.dig.com/asn1/-/asn1-0.2.3.tgz"
                     },
                     "assert-plus": {
-                      "version": "1.0.0"
+                      "version": "http://npm.cloud.corp.dig.com/assert-plus/-/assert-plus-1.0.0.tgz"
                     },
                     "dashdash": {
-                      "version": "1.13.1"
+                      "version": "http://npm.cloud.corp.dig.com/dashdash/-/dashdash-1.13.1.tgz"
                     },
                     "getpass": {
-                      "version": "0.1.6"
+                      "version": "http://npm.cloud.corp.dig.com/getpass/-/getpass-0.1.6.tgz"
                     },
                     "jsbn": {
-                      "version": "0.1.0"
+                      "version": "http://npm.cloud.corp.dig.com/jsbn/-/jsbn-0.1.0.tgz"
                     },
                     "tweetnacl": {
-                      "version": "0.13.3"
+                      "version": "http://npm.cloud.corp.dig.com/tweetnacl/-/tweetnacl-0.13.3.tgz"
                     },
                     "jodid25519": {
-                      "version": "1.0.2"
+                      "version": "http://npm.cloud.corp.dig.com/jodid25519/-/jodid25519-1.0.2.tgz"
                     },
                     "ecc-jsbn": {
-                      "version": "0.1.1"
+                      "version": "http://npm.cloud.corp.dig.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz"
                     }
                   }
                 }
               }
             },
             "is-typedarray": {
-              "version": "1.0.0"
+              "version": "http://npm.cloud.corp.dig.com/is-typedarray/-/is-typedarray-1.0.0.tgz"
             },
             "isstream": {
-              "version": "0.1.2"
+              "version": "http://npm.cloud.corp.dig.com/isstream/-/isstream-0.1.2.tgz"
             },
             "json-stringify-safe": {
-              "version": "5.0.1"
+              "version": "http://npm.cloud.corp.dig.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz"
             },
             "mime-types": {
-              "version": "2.1.11",
+              "version": "http://npm.cloud.corp.dig.com/mime-types/-/mime-types-2.1.11.tgz",
               "dependencies": {
                 "mime-db": {
-                  "version": "1.23.0"
+                  "version": "http://npm.cloud.corp.dig.com/mime-db/-/mime-db-1.23.0.tgz"
                 }
               }
             },
             "node-uuid": {
-              "version": "1.4.7"
+              "version": "http://npm.cloud.corp.dig.com/node-uuid/-/node-uuid-1.4.7.tgz"
             },
             "oauth-sign": {
-              "version": "0.8.2"
+              "version": "http://npm.cloud.corp.dig.com/oauth-sign/-/oauth-sign-0.8.2.tgz"
             },
             "qs": {
-              "version": "6.1.0"
+              "version": "http://npm.cloud.corp.dig.com/qs/-/qs-6.1.0.tgz"
             },
             "stringstream": {
-              "version": "0.0.5"
+              "version": "http://npm.cloud.corp.dig.com/stringstream/-/stringstream-0.0.5.tgz"
             },
             "tough-cookie": {
-              "version": "2.2.2"
+              "version": "http://npm.cloud.corp.dig.com/tough-cookie/-/tough-cookie-2.2.2.tgz"
             },
             "tunnel-agent": {
-              "version": "0.4.3"
+              "version": "http://npm.cloud.corp.dig.com/tunnel-agent/-/tunnel-agent-0.4.3.tgz"
             }
           }
         },
         "retry": {
-          "version": "0.8.0"
+          "version": "http://npm.cloud.corp.dig.com/retry/-/retry-0.8.0.tgz"
         },
         "url-join": {
-          "version": "0.0.1"
+          "version": "http://npm.cloud.corp.dig.com/url-join/-/url-join-0.0.1.tgz"
         },
         "winston": {
-          "version": "2.2.0",
+          "version": "http://npm.cloud.corp.dig.com/winston/-/winston-2.2.0.tgz",
           "dependencies": {
             "async": {
-              "version": "1.0.0"
+              "version": "http://npm.cloud.corp.dig.com/async/-/async-1.0.0.tgz"
             },
             "colors": {
-              "version": "1.0.3"
+              "version": "http://npm.cloud.corp.dig.com/colors/-/colors-1.0.3.tgz"
             },
             "cycle": {
-              "version": "1.0.3"
+              "version": "http://npm.cloud.corp.dig.com/cycle/-/cycle-1.0.3.tgz"
             },
             "eyes": {
-              "version": "0.1.8"
+              "version": "http://npm.cloud.corp.dig.com/eyes/-/eyes-0.1.8.tgz"
             },
             "isstream": {
-              "version": "0.1.2"
+              "version": "http://npm.cloud.corp.dig.com/isstream/-/isstream-0.1.2.tgz"
             },
             "pkginfo": {
-              "version": "0.3.1"
+              "version": "http://npm.cloud.corp.dig.com/pkginfo/-/pkginfo-0.3.1.tgz"
             },
             "stack-trace": {
-              "version": "0.0.9"
+              "version": "http://npm.cloud.corp.dig.com/stack-trace/-/stack-trace-0.0.9.tgz"
             }
           }
         },
         "ws": {
-          "version": "1.1.0",
+          "version": "http://npm.cloud.corp.dig.com/ws/-/ws-1.1.0.tgz",
           "dependencies": {
             "options": {
-              "version": "0.0.6"
+              "version": "http://npm.cloud.corp.dig.com/options/-/options-0.0.6.tgz"
             },
             "ultron": {
-              "version": "1.0.2"
+              "version": "http://npm.cloud.corp.dig.com/ultron/-/ultron-1.0.2.tgz"
             }
           }
         }

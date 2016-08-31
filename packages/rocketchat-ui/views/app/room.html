@@ -15,6 +15,68 @@
 					<i class="{{roomIcon}} status-{{userStatus}}"></i>
 					<span class="room-title">{{roomName}}</span>
 					<span class="room-topic">{{{RocketChatMarkdown roomTopic}}}</span>
+
+					<ul class="room-action-buttons desktop">
+						<li>
+							<a href="#settings" class="toggle-settings">
+								<i class="{{settings}}" aria-label="{{_ settingsLabel}}"></i>
+							</a>
+							<ul class="room-action-buttons toggle-settings-children">
+								<li>Testing Testing 123</li>
+								<li>Test</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#details" class="toggle-details">
+								<i class="{{details}}" aria-label="{{_ detailsLabel}}"></i>
+							</a>
+						</li>
+						<li><span class="spacer"></span></li>
+						<li>
+							<form class="search-form" role="form">
+								<div class="input-line search">
+									<input type="text" id="message-search" class="search" placeholder="{{tSearchMessages}}" autocomplete="off" />
+									<i class="icon-search"></i>
+								</div>
+							</form>
+						</li>
+						<li>
+							<a href="#mentions" class="toggle-mentions">
+								<i class="{{mentions}}" aria-label="{{_ mentionsLabel}}"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#starred" class="toggle-starred">
+								<i class="{{starred}}" aria-label="{{_ starredLabel}}"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#more" class="toggle-more">
+								<i class="{{more}}" aria-label="{{_ moreLabel}}"></i>
+							</a>
+							<ul class="room-action-buttons toggle-more-children">
+								<li>Test</li>
+								<li>Test</li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="room-action-buttons mobile">
+						<li>
+							<a href="#search" class="toggle-search">
+								<i class="{{search}}" aria-label="{{_ searchLabel}}"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#more" class="toggle-more">
+								<i class="{{more}}" aria-label="{{_ moreLabel}}"></i>
+							</a>
+							<ul class="room-action-buttons toggle-more-children">
+								<li>Test</li>
+								<li>Test</li>
+							</ul>
+						</li>
+					</ul>
 				</h2>
 			</header>
 			<div class="container-bars">

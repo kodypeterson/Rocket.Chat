@@ -17,6 +17,7 @@ RocketChat.TabBar = new class
 		openFlex(callback)
 
 	getTemplate = ->
+		console.log(template.get());
 		return template.get()
 
 	setData = (d) ->

@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "atlassian-crowd": {
-      "version": "0.5.0"
+      "version": "http://npm.cloud.corp.dig.com/atlassian-crowd/-/atlassian-crowd-0.5.0.tgz"
     }
   }
 }

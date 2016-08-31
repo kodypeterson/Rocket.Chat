@@ -7,6 +7,13 @@ isSubscribed = (_id) ->
 favoritesEnabled = ->
 	return RocketChat.settings.get 'Favorite_Rooms'
 
+toggleFlexTab = (templateName) ->
+	if RocketChat.TabBar.isFlexOpen() && RocketChat.TabBar.getTemplate() == templateName
+		RocketChat.TabBar.closeFlex()
+	else
+		RocketChat.TabBar.setTemplate templateName
+		RocketChat.TabBar.openFlex()
+
 Template.room.helpers
 	favorite: ->
 		sub = ChatSubscription.findOne { rid: this._id }, { fields: { f: 1 } }
@@ -17,6 +24,42 @@ Template.room.helpers
 		sub = ChatSubscription.findOne { rid: this._id }, { fields: { f: 1 } }
 		return "Unfavorite" if sub?.f? and sub.f and favoritesEnabled
 		return "Favorite"
+
+	settings: ->
+		return 'icon-cog'
+
+	settingsLabel: ->
+		return 'Room Settings'
+
+	details: ->
+		return 'icon-columns'
+
+	detailsLabel: ->
+		return 'Room Details'
+
+	mentions: ->
+		return 'icon-at'
+
+	mentionsLabel: ->
+		return 'Mentions'
+
+	starred: ->
+		return 'icon-star'
+
+	starredLabel: ->
+		return 'Starred Messages'
+
+	more: ->
+		return 'icon-ellipsis-vert'
+
+	moreLabel: ->
+		return 'More Items'
+
+	search: ->
+		return 'icon-search'
+
+	searchLabel: ->
+		return 'Search Messages'
 
 	subscribed: ->
 		return isSubscribed(this._id)
@@ -280,6 +323,38 @@ Template.room.events
 		Meteor.call 'toggleFavorite', @_id, !$('i', event.currentTarget).hasClass('favorite-room'), (err) ->
 			if err
 				return handleError(err)
+
+	'click .toggle-details': (event) ->
+		event.stopPropagation()
+		event.preventDefault()
+		toggleFlexTab('channelSettings')
+
+	'click .toggle-mentions': (event) ->
+		event.stopPropagation()
+		event.preventDefault()
+		toggleFlexTab('mentionsFlexTab')
+
+	'click .toggle-starred': (event) ->
+		event.stopPropagation()
+		event.preventDefault()
+		toggleFlexTab('starredMessages')
+
+	'click .toggle-search': (event) ->
+		event.stopPropagation()
+		event.preventDefault()
+		toggleFlexTab('messageSearch')
+
+	'click .toggle-more': (event) ->
+		event.stopPropagation()
+		event.preventDefault()
+		$(".toggle-more-children").toggleClass "visible"
+
+	'click .toggle-settings': (event) ->
+		event.stopPropagation()
+		event.preventDefault()
+		elem = $(".toggle-settings-children")
+		elem.toggleClass "visible"
+		elem.css "margin-left", (elem.width + 40) * -1
 
 	'click .edit-room-title': (event) ->
 		event.preventDefault()
